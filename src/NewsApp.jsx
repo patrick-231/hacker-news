@@ -1,6 +1,3 @@
-import data from "./MockData.json"
-npm install react-bootstrap bootstrap
-
 import React, { useState, useEffect } from 'react';
 import { Container, Spinner, Alert, ListGroup } from 'react-bootstrap';
 
