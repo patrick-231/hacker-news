@@ -14,16 +14,16 @@ function Header() {
       <div className="navbar-links">
         <ul>
           <li>
-            <a href="#">Documentation</a>
+            <a href="https://legacy.reactjs.org/docs/getting-started.html" target='blank'>Documentation</a>
           </li>
           <li>
-            <a href="#">Components</a>
+            <a href="https://legacy.reactjs.org/docs/components-and-props.html" target='blank'>Components</a>
           </li>
           <li>
-            <a href="#">Hooks</a>
+            <a href="https://legacy.reactjs.org/docs/hooks-intro.html" target='blank'>Hooks</a>
           </li>
           <li>
-            <a href="#">Routing</a>
+            <a href="https://www.w3schools.com/react/react_router.asp" target='blank'>Routing</a>
           </li>
         </ul>
         <input type="text" className="styled-input" placeholder="Search topic.." />
