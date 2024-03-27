@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root {
   font-family: Roboto, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 0.5;
   font-weight: 300;
 
   color-scheme: light dark;
@@ -19,11 +19,25 @@
   display: block;
 }
 
+
+#footerEnd {
+  padding-top:7rem;
+}
+
 a {
   font-weight: 300;
   color: #646cff;
   text-decoration: inherit;
   font-size: 1.5rem;
+  padding-bottom: 5rem;
+  /*border: solid 1px red;*/
+}
+
+.flex-fill {
+  padding-top: 1rem;
+}
+
+.containerInfos{
 
 }
 a:hover {
@@ -100,9 +114,9 @@ button[type="login"] {
 h1 {
   text-align: center;
   font-size: 3.2em;
-  line-height: 1.1;
+  line-height: 0.1;
   margin-left: 1rem;
-
+  padding-bottom: 3rem;
 }
 
 button {
@@ -123,6 +137,14 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+.containerItems {
+  display: flex;
+  justify-content: start;
+  justify-items: ;
+}
+
+
 
 @media (prefers-color-scheme: light) {
   :root {

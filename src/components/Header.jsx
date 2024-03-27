@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="navbar">
       <img
-        src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*y6C4nSvy2Woe0m7bWEn4BA.png"
+        src="https://zeroheight-wordpress-uploads.s3.amazonaws.com/wp-content/uploads/2023/01/small-icon_react-2.png"
         alt="logo image"
         width={150}
         className="logo"
